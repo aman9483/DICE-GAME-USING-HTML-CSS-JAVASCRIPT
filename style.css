@@ -1,0 +1,140 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background: linear-gradient(rgb(19, 21, 22), #9198e5);
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+  }
+  
+  p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
+    width: 80%;
+  }
+  
+  footer {
+     position: relative;
+     top: -200px;
+    color: aqua;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+  
+  }
+  
+
+  iframe{
+
+    width: 230px;
+    height: 230px;
+    position: relative;
+    top: -470px;
+    left: 900px;
+    color: red;
+    display: none;
+  }
+
+  button{
+
+    height: 10vh;
+    width: 30vw;
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    position: relative;
+    top: -200px;
+    color: red;
+    border: 2px solid none;
+    border-radius: 32px;
+    background-color: aqua;
+    transition: background-color 1s;
+  }
+
+  button:hover{
+
+    background-color: white;
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 1.5rem;
+        
+        
+      }
+
+      iframe{
+
+        position: relative;
+       top: -750px;
+       left: 150px;
+       width: 170px;
+      height: 200px;
+
+      }
+
+      button{
+
+        height: 20vh;
+        width: 70vw;
+        border-radius: 32px;
+      }
+
+      button:hover{
+
+           background: white;
+           border: none;
+           transition: background-color 1s;
+      }
+
+      
+       
+  }
+
+  @media only screen and (max-width: 767px) {
+
+    h1 {
+        font-size: 1.5rem;
+        
+        
+      }
+       
+  }
+
+  @media only screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 1.6rem;
+        color: red;
+        
+        
+      }
+       
+  }
+
+  
+  
+
+  
+  
